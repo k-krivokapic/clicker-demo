@@ -1,4 +1,4 @@
-// This is your click counter logic
+// Click counter logic
 let count = 0;
 
 document.addEventListener('DOMContentLoaded', () => {
