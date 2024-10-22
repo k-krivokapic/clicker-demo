@@ -3,11 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',  // Your entry point
+  entry: './src/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,  // This still cleans, but we'll handle index.html separately
+    clean: true, 
   },
   devServer: {
     static: {
@@ -19,7 +19,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',  // Uses source HTML file
+      template: './src/index.html',
     }),
   ],
   module: {

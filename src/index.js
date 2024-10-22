@@ -2,8 +2,8 @@
 let count = 0;
 
 document.addEventListener('DOMContentLoaded', () => {
-  const button = document.getElementById('clicker');
-  const counterDisplay = document.getElementById('counter');
+  const button = document.getElementById('clicker'); // Create button
+  const counterDisplay = document.getElementById('counter'); // Create the counter display
 
   button.addEventListener('click', () => {
     count++; // Increment the count
