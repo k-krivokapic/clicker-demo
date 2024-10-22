@@ -1,0 +1,1 @@
+(()=>{var e=0;document.addEventListener("DOMContentLoaded",(function(){var t=document.getElementById("clicker"),n=document.getElementById("counter");t.addEventListener("click",(function(){e++,n.textContent=e}))}))})();
